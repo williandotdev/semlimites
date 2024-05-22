@@ -1,0 +1,60 @@
+
+body{
+    font-size: 3.2rem;
+    
+}
+h1, legend{
+    color: var(--text-color-primary);
+}
+p{
+    color: var(--bg-secundary-color);
+    font-size: 2rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: var(--bg-primary-color);
+    align-items: center;
+}
+.contend{
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+.arrow{
+    margin: 3.5rem;
+}
+.secundary{
+    background-color: var(--bg-secundary-color);
+}
+.card{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2.6rem;
+    width: 30rem;
+    margin: 5rem;
+}
+.card img{
+    width: 8rem;
+    height: auto;
+}
+footer{
+    color: white;
+    height: 7.8rem;
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border-radius: 1.6rem;
+    margin: 2.4rem 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 4rem;
+}

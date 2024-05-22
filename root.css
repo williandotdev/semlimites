@@ -1,0 +1,15 @@
+:root{
+    font-size: 62.5%;
+    --font-family: "Mulish", sans-serif; 
+    --bg-primary-color: #F9F4FB;
+    --bg-secundary-color: #312D64;
+    --text-color-primary:#B52184;
+    --text-color-secundary:#312D64;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: var(--font-family);
+    list-style: none;
+}
